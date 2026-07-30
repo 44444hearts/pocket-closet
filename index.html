@@ -25,10 +25,13 @@
             font-family: 'Andorale Heart', sans-serif;
             font-size: 4rem;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         gradio-app {
+            display: block;
             width: 100%;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -36,7 +39,12 @@
 
     <h1>Pocket Closet</h1>
 
-    <gradio-app src="https://44444hearts-idm-vton.hf.space"></gradio-app>
+    <gradio-app 
+        src="https://44444hearts-idm-vton.hf.space"
+        container=false
+        info="false"
+        eager="true">
+    </gradio-app>
 
 </body>
 </html>
