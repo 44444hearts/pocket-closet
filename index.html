@@ -19,24 +19,24 @@
             margin: 0 auto;
             padding: 20px;
             text-align: center;
+            overflow-x: hidden;
+            box-sizing: border-box;
         }
 
         h1 {
             font-family: 'Andorale Heart', sans-serif;
-            font-size: 4rem;
-            margin-bottom: 10px;
+            font-size: clamp(2.5rem, 10vw, 4rem);
+            margin: 20px 0;
             text-align: center;
             color: #250F00;
-            position: relative;
-            z-index: 999;
         }
 
         gradio-app {
             display: block;
             width: 100%;
+            max-width: 100%;
             margin: 0 auto;
-            position: relative;
-            z-index: 1;
+            transform-origin: top center;
         }
     </style>
 </head>
