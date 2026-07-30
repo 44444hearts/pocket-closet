@@ -28,12 +28,16 @@
             margin-bottom: 10px;
             text-align: center;
             color: #4A463D;
+            position: relative;
+            z-index: 999;
         }
 
         gradio-app {
             display: block;
             width: 100%;
             margin: 0 auto;
+            position: relative;
+            z-index: 1;
         }
     </style>
 </head>
@@ -47,6 +51,6 @@
         info="false"
         eager="true">
     </gradio-app>
-    
+
 </body>
 </html>
